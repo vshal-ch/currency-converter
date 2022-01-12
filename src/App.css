@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    text-align: center;    
+}
+
+h1{
+    margin-bottom: 1rem;
+}
+
+.input-cont{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+}
+
+.eq{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+input{
+    padding: .3rem .7rem;
+    border-radius: 4px;
+}
+
+select{
+    padding: .3rem .7rem;
+}
+
+.row{
+    display: flex;
+    gap: .7rem;
+}
